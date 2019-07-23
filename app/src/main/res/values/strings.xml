@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Station Center</string>
+    <string name="device_test">DEVICE TESTING</string>
+    <string name="daftar">Daftar</string>
+    <string name="manual">Manual</string>
+    <string name="owner">Owner</string>
+    <string name="edit_user">Edit User</string>
+    <string name="tambah_user">Tambah User</string>
+    <string name="hapus_user">Hapus User</string>
+    <string name="password">password</string>
+    <string name="login_label">Simpan</string>
+    <string name="login">Registrasi - Tap KTP yang akan ditambahkan</string>
+    <string name="noktp">No. KTP</string>
+    <string name="nama_user">Nama</string>
+    <string name="accout">Tipe</string>
+
+    <string name="sidik_jari"> [ Klik Logo Sidik Jari Untuk Login ]</string>
+    <string name="hal_login">Login</string>
+    <string name="biometric_title">Login</string>
+    <string name="biometric_subtitle">Gunakan Sensor Finger Print di HP anda</string>
+    <string name="biometric_description">Letakkan Jari anda di sensor</string>
+    <string name="biometric_negative_button_text">Cancel</string>
+    <string name="biometric_error_sdk_not_supported">SDK not supported</string>
+    <string name="biometric_error_hardware_not_supported">Finger Print Sensor not supported</string>
+    <string name="biometric_error_fingerprint_not_available">FInger Print not found</string>
+    <string name="biometric_error_permission_not_granted">Dont have permission to use Finger Print</string>
+    <string name="biometric_cancelled">Cancel</string>
+    <string name="biometric_success">Succes</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="login_awal">::Login::</string>
+    <string name="login_tombol">Login</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="field_off">Field Off.</string>
+    <string name="station_off">Station Off.</string>
+    <string name="admin">Admin</string>
+    <string name="pinjam_mesin">Ambil Mesin</string>
+    <string name="balik_mesin">Kembalikan Mesin</string>
+    <string name="head_ektp">TAP E-KTP</string>
+    <string name="isi_ektp">[ Field Officer Login ]</string>
+    <string name="error_ektp">KARTU TIDAK DIKENALI ATAU TERDAFTAR !</string>
+    <string name="error_nfc">"NFC BELUM AKTIF !</string>
+    <string name="erro_inet">NO INTERNET !</string>
+    <string name="field_login">FIELD OFFICER LOGIN</string>
+    <string name="station_login">STATION OFFICER LOGIN</string>
+    <string name="head_sound">SPEAKER CHECK</string>
+    <string name="head_screen">SCREEN CHECK</string>
+    <string name="head_batt">BATTERAY CHECK</string>
+    <string name="keluar_app">KELUAR</string>
+    <string name="info_app">INFO</string>
+    <string name="tap_p_card">TAP P-CARD</string>
+
+    <!-- Title and status -->
+    <string name="field_off_full">FIELD OFFICER</string>
+    <string name="field_off_short">FIELD OFF.</string>
+    <string name="status_berhasil">BERHASIL !</string>
+    <string name="status_gagal">GAGAL !</string>
+    <string name="logout_CAPS">LOGOUT</string>
+    <string name="login_CAPS">LOGIN</string>
+    <string name="sta_off_full">STATION OFFICER</string>
+    <string name="sta_off_short">STA OFF.</string>
+    <string name="mesin">DEVICE TEST</string>
+    <string name="error_ektp_cloud">USER TIDAK TERDAFTAR !</string>
+    <string name="dialog_keluar">YAKIN INGIN KELUAR?</string>
+    <string name="submit">SUBMIT</string>
+
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jadaperkasa.station">
+
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.FieldAuth"
+            android:label="@string/field_login"
+            android:launchMode="singleTop">
+            <!--android:parentActivityName=".ui.MainActivity"-->
+
+            <!--meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" /-->
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+
+        <activity
+            android:name=".ui.StationAuth"
+            android:label="@string/station_login"
+            android:launchMode="singleTop">
+
+
+
+            <!--android:parentActivityName=".ui.MainActivity"-->
+
+        <!--meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.MachineTest" /-->
+
+        <meta-data
+            android:name="android.nfc.action.TECH_DISCOVERED"
+            android:resource="@xml/nfc_tech_filter" />
+    </activity>
+
+    <activity android:name=".ui.MainActivity"
+        android:launchMode="singleTop">
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+
+        </intent-filter>
+
+        <meta-data
+            android:name="android.nfc.action.TECH_DISCOVERED"
+            android:resource="@xml/nfc_tech_filter" />
+
+    </activity>
+
+    <activity android:name=".ui.MachineTest"
+        android:label="@string/device_test"
+        android:launchMode="singleTop"
+        android:windowSoftInputMode="adjustResize">
+        <!--android:parentActivityName=".ui.FieldAuth"-->
+
+
+
+        <!--meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.FieldAuth" /-->
+
+
+    </activity>
+
+
+
+
+</application>
+
+</manifest>

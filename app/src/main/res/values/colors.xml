@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DC1491F5</color>
+    <color name="colorPrimaryDark">#1385E0</color>
+    <color name="colorAccent">#80D81B60</color>
+    <color name="mainbackground">#A31491F5</color>
+    <color name="cardbackground">#34EDF1F5</color>
+    <array name="test_color">
+        <item name="merah">#E70925</item>
+        <item name="hijau">#099E0F</item>
+        <item name="kuning">#ECF313</item>
+    </array>
+    <color name="white">#FFFFFF</color>>
+
+</resources>
